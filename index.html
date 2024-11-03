@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="portfolio" />
+    <meta name="keywords" content="BACKEND 개발자 김민경" />
+    <meta name="author" content="heosukyeong" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kim Min Kyung &#124; Back-end</title>
+    <link rel="stylesheet" href="css/jquery.fullpage.css" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" type="image/ico" sizes="16x16" href="img/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon.png"
+    />
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/98f9029940.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--[if lt IE 9
+      ]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script
+    ><![endif]-->
+  </head>
+  <body>
+    <!-- int modal -->
+    <div class="int_modal">
+      <div class="int_modal_inner">
+        <strong>백엔드 개발자 김민경</strong>
+        <p>
+          안녕하세요. 신입 Python 백엔드 개발자 김민경입니다. <br />
+          저는 Python을 주언어로 공부하고, 서버 기술에 매력을 느껴 <br />백엔드
+          개발자를 꿈꾸고 있습니다. <br />
+          '하늘이 감동할 만큼 노력하자'는 저의 좌우명으로 <br />어떤 상황에서도
+          최선을 다하고 끊임없이 노력하여 <br />지속적인 성장을 이루자는
+          다짐입니다. <br />
+          이러한 좌우명에 맞게 늘 발전하는 모습보여드리겠습니다.
+        </p>
+        <button type="button"><i class="fas fa-times"></i></button>
+      </div>
+      <!-- //.int_modal_inner -->
+    </div>
+    <!-- //.int_modal -->
+    <!-- int modal -->
+
+    <header>
+      <h1>
+        <a href="./index.html"
+          ><img src="img/logo.png" style="width: 300px" alt="김민경포트폴리오"
+        /></a>
+      </h1>
+      <nav>
+        <ul id="menu">
+          <li data-menuanchor="home">
+            <a href="#home" class="anchor" title="홈으로 가기">HOME</a>
+          </li>
+          <li data-menuanchor="about">
+            <a href="#section1" class="anchor" title="자기소개로 가기">ABOUT</a>
+          </li>
+          <li data-menuanchor="portfolio">
+            <a href="#section2" class="anchor" title="깃허브 바로가기"
+              >ARCHIVING</a
+            >
+          </li>
+          <li data-menuanchor="design">
+            <a href="#section2" class="anchor" title="깃허브 바로가기"
+              >PROFILE</a
+            >
+          </li>
+          </li>
+          <li data-menuanchor="contact">
+            <a href="#section4" class="anchor" title="연락처 보러가기"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburger-1" title="메뉴">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <!-- //.hamburger -->
+    </header>
+    <div class="ham_menu">
+      <ul class="ham_menu_inner">
+        <li data-menuanchor="home">
+          <img src="img/ham_menu1.png" alt="홈으로 가기" /><a
+            href="#section0"
+            class="anchor"
+            >HOME</a
+          >
+        </li>
+        <li data-menuanchor="about">
+          <img src="img/ham_menu2.png" alt="자기소개로 가기" /><a
+            href="#about"
+            class="anchor"
+            >ABOUT</a
+          >
+        </li>
+        <li data-menuanchor="portfolio">
+          <img src="img/ham_menu3.png" alt="보관함 가기" /><a
+            href="#portfolio"
+            class="anchor"
+            >ARCHIVING</a
+          >
+        </li>
+        <li data-menuanchor="design">
+          <img src="img/ham_menu4.png" alt="디자인 작업물 보러가기" /><a
+            href="#design"
+            class="anchor"
+            >PROFILE</a
+          >
+        </li>
+        <li data-menuanchor="contact">
+          <img src="img/ham_menu5.png" alt="연락처 보러가기" /><a
+            href="#contact"
+            class="anchor"
+            >CONTACT</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="side_mouse">
+      <p>SCROll</p>
+    </div>
+    <!-- //.scroll_deco -->
+    <main id="fullpage">
+      <section
+        class="section fp-section fp-table"
+        data-anchor="home"
+        id="section0"
+        data-fp-styles="null"
+      >
+        <div class="container">
+          <div id="circle">
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="300px"
+              height="300px"
+              viewBox="0 0 300 300"
+              enable-background="new 0 0 300 300"
+              xml:space="preserve"
+            >
+              <defs>
+                <path
+                  id="circlePath"
+                  d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
+                />
+              </defs>
+              <circle cx="150" cy="100" r="75" fill="none" />
+              <g>
+                <use xlink:href="#circlePath" fill="none" />
+                <text fill="#000">
+                  <textPath xlink:href="#circlePath">
+                    WELCOME TO MY PORTFOLIO WELCOME TO MY PORTFOLIO
+                  </textPath>
+                </text>
+              </g>
+            </svg>
+          </div>
+          <!-- //#circle -->
+          <div class="tit">Back-End<br />DEVELOPER</div>
+          <p>
+            안녕하세요. 신입 Python 백엔드 개발자 김민경입니다.<br />
+            이 포트폴리오에서는<br />
+            저의 노력의 결과인 작업물들을 보실 수 있습니다.🙂
+          </p>
+        </div>
+        <!-- //.container -->
+      </section>
+      <!-- //.home -->
+
+      <section
+        class="section fp-section fp-table"
+        data-anchor="about"
+        id="section1"
+        data-fp-styles="null"
+      >
+        <div class="container">
+          <h2>ABOUT ME</h2>
+          <div class="about_box_m">
+            <div class="about_top"></div>
+            <div class="about_character"></div>
+            <div class="about_mid">
+              <div class="about_name">
+                <strong>Heo Sukyeong</strong>
+                <br /><br /><br />
+                <p class="on">
+                  안녕하세요. 신입 Python 백엔드 개발자 김민경입니다. <br />
+                  저는 Python을 주언어로 공부하고, 서버 기술에 매력을 느껴
+                  <br />백엔드 개발자를 꿈꾸고 있습니다. <br />
+                  <span style="color: red; font-weight: 700; font-size: 20px"
+                    >'하늘이 감동할 만큼 노력하자'</span
+                  >는 저의 좌우명으로 <br />어떤 상황에서도 최선을 다하고
+                  끊임없이 노력하여 <br />지속적인 성장을 이루자는 다짐입니다.
+                  <br />
+                  이러한 좌우명에 맞게 늘 발전하는 모습보여드리겠습니다.
+                </p>
+              </div>
+              <div class="about_int"></div>
+            </div>
+            <!-- //.about_mid -->
+            <div class="about_bot">
+              <div class="m_certificate">
+                <img
+                  src="./img/frontend.png"
+                  style="margin-top: 30px; margin-bottom: 70px"
+                  alt="프론트엔드"
+                />
+                <img
+                  src="./img/backend.png"
+                  style="margin-bottom: 90px"
+                  alt="백엔드"
+                />
+                <img src="./img/db.png" style="margin-top: 30px" alt="db" />
+                <img src="./img/server.png" alt="서버" />
+                <img src="./img/git.png" alt="깃" />
+                <img src="./img/tools2.png" alt="tools" style="height: 100px" />
+              </div>
+              <!-- //.m_certificate -->
+            </div>
+            <!-- //.about_bot -->
+          </div>
+          <!-- //.about_box_m -->
+          <div class="contents main_contents">
+            <h2>ABOUT ME</h2>
+            <button type="button">CLICK</button>
+            <svg class="text-line">
+              <text
+                style="font-family: 'Montserrat', sans-serif"
+                x="0"
+                y="90"
+                fill="none"
+              >
+                KIM
+              </text>
+            </svg>
+            <!-- //.text-line about_name_animation -->
+            <svg class="text-line" style="width: 700px">
+              <text
+                style="font-family: 'Montserrat', sans-serif"
+                x="0"
+                y="100"
+                fill="none"
+              >
+                MIN KYEONG
+              </text>
+            </svg>
+            <!-- //.text-line about_name_animation -->
+            <p>
+              안녕하세요. 신입 Python 백엔드 개발자 김민경입니다. <br />
+              저는 Python을 주언어로 공부하고, 서버 기술에 매력을 느껴
+              <br />백엔드 개발자를 꿈꾸고 있습니다.
+              <strong style="font-size: 25px; color: red; font-weight: 700"
+                >'하늘이 감동할 만큼 노력하자'</strong
+              >는 저의 좌우명으로 <br />어떤 상황에서도 최선을 다하고 끊임없이
+              노력하여 지속적인 성장을 이루자는 다짐입니다. <br />이러한
+              좌우명에 맞게 늘 발전하는 모습보여드리겠습니다.
+            </p>
+            <div class="character">
+              <img
+                src="./img/minkyung.png"
+                alt="김민경 사진"
+                style="width: 230px"
+              />
+            </div>
+            <!-- //.character -->
+          </div>
+          <!-- //.contents -->
+
+          <div class="contents">
+            <ul class="certificate_box">
+              <li class="certificate_txt">SKILL</li>
+              <li class="certificate_img">
+                <div class="certificate1 certificate float-shadow">
+                  <p style="padding: 0">프론트엔드</p>
+                  <img
+                    src="./img/frontend.png"
+                    alt="프론트엔드"
+                    style="width: 100px"
+                  />
+                </div>
+                <div
+                  class="certificate2 certificate float-shadow"
+                  style="margin-bottom: 50px; padding-top: 20px"
+                >
+                  <p>백엔드</p>
+                  <img
+                    src="./img/backend.png"
+                    alt="백엔드"
+                    style="width: 100px; height: 90px"
+                  />
+                </div>
+                <div
+                  class="certificate3 certificate float-shadow"
+                  style="padding-top: 20px; padding-left: 20px"
+                >
+                  <p>Database</p>
+                  <img
+                    src="./img/db.png"
+                    alt="Database"
+                    style="width: 110px; height: 100px"
+                  />
+                </div>
+                <div
+                  class="certificate4 certificate float-shadow"
+                  style="padding-top: 20px"
+                >
+                  <p>SERVER</p>
+                  <img
+                    src="./img/server.png"
+                    alt="server"
+                    style="width: 130px; height: 90px"
+                  />
+                </div>
+                <div
+                  class="certificate5 certificate float-shadow"
+                  style="padding-top: 20px"
+                >
+                  <p>Version control</p>
+                  <br />
+                  <img src="./img/github.png" alt="git" style="width: 70px" />
+                </div>
+                <div
+                  class="certificate6 certificate float-shadow"
+                  style="padding-top: 20px"
+                >
+                  <p>Tools</p>
+                  <img
+                    src="./img/tools.png"
+                    alt="tools"
+                    style="width: 100px; height: 90px; margin-top: 10px;"
+                  />
+                </div>
+              </li>
+            </ul>
+            <!-- //.certificate_box -->
+          </div>
+          <!-- //.contents -->
+        </div>
+        <!-- //.container -->
+      </section>
+      <!-- //.about -->
+
+      <section
+        class="section fp-section fp-table"
+        data-anchor="portfolio"
+        id="section2"
+        data-fp-styles="null"
+      >
+        <article class="slide pannel_style1">
+          <div class="container">
+            <h2>PORTFOLIO</h2>
+            <div class="side_bar">
+              <p class="first_txt">01</p>
+              <div class="bar"></div>
+              <p class="last_txt">02</p>
+            </div>
+            <!-- //.side_bar -->
+            <div class="publishing_contents">
+              <div class="publishing_left_txt">
+                <strong>SKILL</strong>
+                <p>
+                  사용가능한 스킬
+                  <br /><br />
+                  – ECLIPSE <br /><br />
+                  – ORACLE <br /><br />
+                  – SPRING
+                </p>
+                
+              </div>
+              <!-- publishing_left_txt -->
+              <div style="margin-top: 300px;">
+                <p style="margin-bottom: 50px;">
+                  ■ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    파이썬 프로그래밍 <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 파이썬의 다양한 기초부터 응용까지 전반적인 학습 <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 파이썬의 다양한 라이브러리, 모듈 학습 <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Numpy, mahplotilb, pandas 등을 활용한 데이터 분석 및 시각화(도표, 그래표 등) <br><br>
+                  ■  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 데이터베이스, 프론트엔드 <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle, mysql과 같은 DBMS를 활용한 데이터베이스 기초 및 응용 <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html,css,javascript를 활용한 웹 화면 설계 및 구현 <br><br>
+                  ■ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   웹 크롤링 <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Selenium, beautifulsoup을 활용한 웹페이지 정보 수집<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 크롤링 자동화를 통한 주식데이터 수집, 쇼핑데이터 수집 등 원하는 형태로의 응용<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Konlpy를 활용한 word cloud 출력 <br><br>
+                  ■  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 빅데이터 처리 <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hadoop을 활용한 빅데이터 분석<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 수집된 데이터에서 의미 있는 정보를 분석하고 추출할 수 있는 능력 <br><br>
+                  ■  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  회원가입, 로그인 기능 <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jsp파일을 만들어서 먼저 회원가입, 로그인 창을 제작하고 난 후 <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;controller를 이용해서 먼저 회원가입 창에 내용을 기입하면 회원가입이 되도록 실행을 하였고 <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아이디가 중복되면 중복되었다고 나오게 하고 중복이 아니면 사용 가능한 아이디라고 나오게 하였습니다. <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;그리고 로그인을 할 때 아이디하고 비밀번호가 일치하면 로그인이 되었다 하고 홈페이지로 돌아오게 설정하였고<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일치하지 않으면 로그인이 안되게 만든 다음 로그인 창으로 돌아오게 만들었습니다. <br><br>
+                  ■ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  결제기능 <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;포트원이라는 API를 이용하여 카카오 페이, 토스 페이, 페이코로 구현해보았습니다. <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;포트원에서 제공하는 스크립트 파일 안에 있는 IMP 객체를 가져와 IMP 객체를 결제 연동할 때 테스트로 제공되는<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가맹점 식별코드로 초기화를 하고 IMP 객체를 통해 결제 요청을 하였습니다. <br><br>
+                  ■  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D모델기능 <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;웹에 3D모델을 띄우기 위해 three.js를 사용하고 three.js안의 모듈을 사용하기 위해 스크립트를 가져왔습니다. <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D모델을 띄우기 위해서는 scene, camera, renderer가 필요합니다. <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3개를 각각 선언해주고 camera가 3D모델 대상 주위를 선회할 수 있도록 하면 이 조명은 장면의 모든 오브젝트를 전체적으로 동일하게 비춰줍니다. <br><br>
+                  ■ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;채팅기능 <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web speech API를 통해 마이크로 들어오는 음성을 텍스트로 가져왔습니다. <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;음성인식을 위한 객체를 선언하고 음성인식에서 인식할 단어 패턴을 포함하는 개체목록을 삽입하고 openAI에서 가져온 apikey를 발급받아 구축했습니다. <br><br>
+                </p>
+              </div>
+            </div>
+            <!-- //.publishing_contents -->
+          </div>
+          <!-- //.container -->
+        </article>
+        <!-- //slide1 -->
+
+
+              </div>
+              <!-- publishing_left_txt -->
+            </div>
+            <!-- //.publishing_contents -->
+          </div>
+          <!-- //.container -->
+        </article>
+        <!-- //slide2 -->
+      </section>
+      <!-- //.publishing -->
+
+      <section
+        class="section fp-section fp-table"
+        data-anchor="design"
+        id="section3"
+        data-fp-styles="null"
+      >
+        <div class="container"  style="display: ;">
+          <h2>PROFILE</h2>
+          <img src="./img/about_me.jpg" alt="">
+          <ul style="margin-left: 300px; margin-top: 250px;">
+            <div class="name" style="margin-bottom: 50px;">
+              <h3 style="font-size: 25px;
+              font-family: 700;
+              margin-bottom: 10px;">PROFILE</h3>
+              <li>Name : 김민경</li><br>
+              <li>Birth : 2003.05.06</li><br>
+              <li>PHONE : 010-7422-8053</li><br>
+              <li>Mail : gimm4455@gmail.com</li><br>
+            </div>
+            <div class="school" style="margin-bottom: 50px;">
+              <h3 style="font-size: 25px;
+              font-family: 700;
+              margin-bottom: 10px;">CERTIFICATE</h3>
+              <li>2023 운전면허 2종보통</li><br>
+              <li>2024 컴퓨터활용능력자격증 2급</li><br>
+            </div>
+            <div class="edu" style="margin-bottom: 50px;">
+              <h3 style="font-size: 25px;
+              font-family: 700;
+              margin-bottom: 10px;">EDUCATION</h3>
+              <li>2023.11 인천일보아카데미 <br> 파이썬 웹 크롤링을 활용한 빅데이터 구축, 분석 및 시각화 개발자 양성과정</li><br>
+              <li>2024.08 인하공전 정보통신공학과 졸업</li><br>
+            </div>
+            <div class="exp" style="margin-bottom: 50px;">
+              <h3 style="font-size: 25px;
+              font-family: 700;
+
+            </div>
+            <div class="cic"></div>
+          </ul>
+
+      </section>
+      <!-- //.porfile -->
+
+      <section
+        class="section fp-section fp-table"
+        data-anchor="contact"
+        id="section4"
+        data-fp-styles="null"
+      >
+        <div class="container">
+          <h2>CONTACT</h2>
+          <div class="contact_box">
+            <div class="mail">
+              <a href="mailto:fcb1014@naver.com">gimm4455@gmaill.com</a>
+              <div><a href="mailto:fcb1014@naver.com">SEND EMAIL</a></div>
+            </div>
+            <!-- //.mail -->
+            <div class="kakao">
+              <div class="qr">
+                <a href="#" target="_blank" rel="noopener noreferrer"></a>
+              </div>
+              <a href="https://open.kakao.com/o/sokUb8Xg" target="_blank" rel="noopener noreferrer"
+                ><p>Kakaotalk Openchat</p></a
+              >
+            </div>
+            <!-- //.kakao -->
+          </div>
+          <!-- .contact_box -->
+        </div>
+        <!-- //.container -->
+        <div class="rollingH ani">
+          <div class="rolling_box">
+            <div class="aniText">Thank you for reviewing my portfolio</div>
+            <div class="aniText">Back-end Developer</div>
+          </div>
+        </div>
+        <!-- //.rollingH -->
+      </section>
+      <!-- //.contact -->
+    </main>
+    <!-- //.wrap -->
+  </body>
+</html>
